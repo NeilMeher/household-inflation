@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inflation for Different Households</title>
+<style>body{font:1rem/1.6 system-ui;color:#17364a;background:#f2f6f8;max-width:65rem;margin:4rem auto;padding:0 1rem}
+h1{font-size:clamp(2rem,6vw,3.7rem);line-height:1.1;letter-spacing:-.06em}input,select{font:inherit;padding:.25rem}
+input{width:5em}label{display:inline-block;margin:.4rem 1rem .4rem 0}table{width:100%;border-collapse:collapse;background:white}
+th,td{border-bottom:1px solid #cad6de;padding:.65rem;text-align:left}#scroll{overflow-x:auto}#result{font-weight:700}a{color:#096073}</style>
+<script defer src="calculator.js"></script>
+<h1>Inflation for Different Households</h1>
+<p>Compare fictional spending baskets using December 2025 urban year-on-year CPI group rates.</p>
+<label>Basket A <select id="presetA"></select></label><label>Basket B <select id="presetB"></select></label>
+<p id="result" role="status"></p>
+<div id="scroll"><table><thead><tr><th>Group</th><th>Official rate</th><th>A weight</th><th>A contribution (pp)</th><th>B weight</th><th>B contribution (pp)</th></tr></thead><tbody></tbody></table></div>
+<p><a id="source">MoSPI CPI release, Annexure II (urban)</a></p></html>
